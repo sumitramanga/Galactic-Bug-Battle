@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+}
+
+.board-row {
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.cell.hit {
+  background-color: red;
+}
+
+.cell.miss {
+  background-color: white;
+}

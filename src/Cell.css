@@ -1,0 +1,28 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .cell.bolt {
+    background-image: url(./images/bolt-hit.jpg);
+    background-size: cover;
+    background-position: center; 
+  }
+  
+  .cell.hit {
+    /* background-color: red; */
+    background-image: url(./images/bug-hit.jpg);
+    background-size: cover;
+    background-position: center; 
+  }
+  
+  .cell.miss {
+    background-color: rgb(18, 28, 90);
+  }
+
+
+  
